@@ -3,13 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import Postview from './Postview';
 import reportWebVitals from './reportWebVitals';
-
-
-
+import Navbar from './components/Navbar';
 
 
 ReactDOM.render(
   <React.StrictMode>
+    <Navbar />
     <Postview />
   </React.StrictMode>,
   document.getElementById('root')
