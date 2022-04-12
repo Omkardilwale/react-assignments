@@ -1,15 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Postview from './Postview';
+
 import reportWebVitals from './reportWebVitals';
-import Navbar from './components/Navbar';
+
+import App from './App';
 
 
 ReactDOM.render(
   <React.StrictMode>
-    <Navbar />
-    <Postview />
+    <App/>
   </React.StrictMode>,
   document.getElementById('root')
 );

@@ -3,6 +3,7 @@ import Post from './components/Post';
 import './Postview.css';
 
 
+
 const Postview = () => {
   const [posts, setPosts] = useState([]);
 
