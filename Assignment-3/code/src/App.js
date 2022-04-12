@@ -1,12 +1,8 @@
 import React from 'react';
 import './App.css';
-import './Components/Customer-info';
 import CustomerInfo from './Components/Customer-info';
-import './Components/Order-info';
 import OrderInfo from './Components/Order-info';
-import './Components/Product-list';
 import ProductList from './Components/Product-list';
-import './Components/Header';
 import Header from './Components/Header';
 
 const details ={
